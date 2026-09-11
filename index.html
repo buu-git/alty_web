@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALLTY | Inteligentne zarządzanie domowym majątkiem</title>
     
+    <!-- Favicon (ikona w karcie przeglądarki i w wyszukiwarce) -->
+    <link rel="icon" type="image/png" href="allty_logo.png">
+    
     <!-- Podstawowe tagi SEO -->
     <meta name="description" content="Odzyskaj kontrolę nad swoim prywatnym inwentarzem. Allty to aplikacja wykorzystująca sztuczną inteligencję do automatycznej identyfikacji, wyceny i katalogowania Twoich domowych zasobów.">
     <meta name="keywords" content="zarządzanie majątkiem, inwentaryzacja domu, aplikacja do wyceny, sztuczna inteligencja, majątek osobisty, ALLTY">
@@ -13,6 +16,7 @@
     <meta property="og:title" content="ALLTY - Twój domowy majątek pod kontrolą">
     <meta property="og:description" content="Rozwiązanie, które zautomatyzuje zarządzanie Twoim prywatnym inwentarzem.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://allty.pl/allty_logo.png">
     
     <!-- Dane strukturalne JSON-LD (Kluczowe dla Google AI!) -->
     <script type="application/ld+json">
@@ -40,15 +44,30 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100vh;
-    background:white;
+    min-height:100vh;
+    background:#ffffff;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
 ">
-    <!-- Niewidoczny nagłówek dla robotów Google - czytany przez AI, ukryty dla ludzi -->
-    <h1 style="position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); border:0;">
-        ALLTY - Inteligentne zarządzanie domowym majątkiem
-    </h1>
-
-    <!-- Twoje logo z rozszerzonym tagiem alt dla lepszego indeksowania -->
-    <img src="allty_logo.png" alt="ALLTY - aplikacja do zarządzania domowym majątkiem" style="max-width:600px; width:100%; height:auto;">
+    <div style="max-width: 600px;">
+        <!-- Twoje logo -->
+        <img src="allty_logo.png" alt="ALLTY - aplikacja do zarządzania domowym majątkiem" style="max-width:300px; width:100%; height:auto; margin-bottom: 30px;">
+        
+        <!-- Widoczny nagłówek H1 -->
+        <h1 style="color: #1a1a1a; font-size: 28px; margin-bottom: 15px; font-weight: 600;">
+            ALLTY - Inteligentne zarządzanie domowym majątkiem
+        </h1>
+        
+        <!-- Krótki opis naszpikowany słowami kluczowymi -->
+        <p style="color: #555555; font-size: 16px; line-height: 1.6; margin-bottom: 30px;">
+            Budujemy inteligentny system, który zmieni sposób, w jaki katalogujesz i wyceniasz swoje prywatne zasoby. Automatyczna identyfikacja przedmiotów ze zdjęć i pełna kontrola nad inwentarzem.
+        </p>
+        
+        <span style="display: inline-block; padding: 10px 20px; background-color: #f3f4f6; color: #374151; border-radius: 6px; font-weight: 500; font-size: 14px;">
+            Polska premiera wkrótce
+        </span>
+    </div>
 </body>
 </html>
